@@ -1,0 +1,168 @@
+{
+	// Place your GLOBAL snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+		// 🧠 vue
+
+		"#app": {
+			"scope": "html",
+			"prefix": "app",
+			"body": [
+				"<div id='app'>",
+				"",
+				"  $1",
+				"",
+				"</div>",
+			],
+			"description": "#app"
+		},
+
+
+			// 🧠🧠💰💰 vue oop
+			"vue createApp of option API": {
+				"scope": "javascript,typescript",
+				"prefix": "vso",
+				"body": [
+					"const app = Vue.createApp({",
+					"  data() {",
+					"    return {",
+					"       $1",
+					"    }",
+					"  },",
+					"});",
+					"",
+					"app.mount('#app')"
+				],
+				"description": "vue composition API"
+			},
+
+			"vue components compositions API": {
+				"scope": "javascript,typescript",
+				"prefix": "oo",
+				"body": [
+					"const ${1:com} = {",
+					"  template:",
+					"    `",
+					"      $2",
+					"    `,",
+					"  setup(props) {",
+					"",
+					"    return {",
+					"",
+					"    }",
+					"  }",
+					"}",
+				],
+				"description": "vue components compositions API"
+			},
+			"vue components option API": {
+				"scope": "javascript,typescript",
+				"prefix": "com",
+				"body": [
+					"app.component('${1:componentName}', {",
+					"  data() {",
+					"    return {",
+					"      $2",
+					"    }",
+					"  },",
+					"  template:",
+					"    `",
+					"        $3",
+					"    `,",
+					"})",
+				],
+				"description": "vue components option API"
+			},
+			"vue watch obj": {
+				"scope": "javascript,typescript",
+				"prefix": "wa",
+				"body": [
+					"${1:variableName}(${2:n}, ${3:o}) {",
+					"$4",
+					"},"
+				],
+				"description": "vue watch"
+			},
+			"template of vue component": {
+				"scope": "javascript,typescript",
+				"prefix": "vt",
+				"body": [
+					"template:",
+					"`",
+					"  ${1:here}",
+					"`,"
+				],
+				"description": "template"
+			},
+			"vue $emit": {
+				"scope": "",
+				"prefix": "vemit",
+				"body": [
+					"${5:\\$emit}('${1:update}:${2:emitName}', ${3:\\$event.target.value})$0",
+				],
+				"description": "vue $emit"
+			},
+			// 🧠🧠💰💰 composition API
+			"vue createApp of composition API": {
+				"scope": "javascript,typescript",
+				"prefix": "vs",
+				"body": [
+					"const { createApp, ref } = Vue;",
+					"",
+					"const app = createApp({",
+					"  setup(props){",
+					"    $0"
+					""
+					"    return {",
+					"       ",
+					"    }",
+					"  }",
+					"});",
+					"",
+					"app.mount('#app');"
+				],
+				"description": "vue composition API"
+			},
+			"vue createApp of composition API import": {
+				"scope": "javascript,typescript",
+				"prefix": "vsi",
+				"body": [
+					"import { createApp, ref } from 'vue';",
+					"",
+					"const app = Vue.createApp({",
+					"  setup(props){",
+					"    $0"
+					""
+					"    return {",
+					"       ",
+					"    }",
+					"  }",
+					"});",
+					"",
+					"app.mount('#app');"
+				],
+				"description": "vue composition API"
+			},
+			"vue composition ref": {
+				"scope": "javascript,typescript",
+				"prefix": "vref",
+				"body": [
+					"const ${1:variable} = ref(${2:reference});",
+				],
+				"description": "vue composition ref"
+			},
+
+}

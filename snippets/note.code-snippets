@@ -1,0 +1,113 @@
+{
+	// Place your GLOBAL snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"emoji": {
+		"scope": "",
+		"prefix": "emoji",
+		"body": [
+			"🥰💀✌️🌴🐢🐐🍄⚽🍻👑📸😬👀🚨🏡🕊️🏆😻🌟🧿🍀🎨🍜",
+		],
+		"description": "emoji"
+	},
+	"註解標題": {
+		"scope": "",
+		"prefix": "a1",
+		"body": [
+			"//🍉🥝 ${1:title}",
+		],
+		"description": "註解標題"
+	},
+	"註解重點": {
+		"prefix": "a2",
+		"body": [
+			"//🍙 ${1:point}",
+		],
+		"description": "註解重點"
+	},
+	"註解注意事項": {
+		"scope": "",
+		"prefix": "a3",
+		"body": [
+			"//🧊 ${1:Notice}",
+		],
+		"description": "註解注意事項"
+	},
+	"''註解標題": {
+		"scope": "",
+		"prefix": "q1",
+		"body": [
+			"'🍉🥝 ${1:title}'",
+		],
+		"description": "註解標題"
+	},
+	"''註解重點": {
+		"scope": "",
+		"prefix": "q2",
+		"body": [
+			"'🍙 ${1:point}'",
+		],
+		"description": "註解重點"
+	},
+	"''註解注意事項": {
+		"scope": "",
+		"prefix": "q3",
+		"body": [
+			"'🧊 ${1:Notice}'",
+		],
+		"description": "註解注意事項"
+	},
+	"註解標題": {
+		"scope": "",
+		"prefix": "w1",
+		"body": [
+			"🧠 ${1:title}",
+		],
+		"description": "註解標題"
+	},
+	"註解重點": {
+		"scope": "",
+		"prefix": "w2",
+		"body": [
+			"🍙 ${1:point}",
+		],
+		"description": "註解重點"
+	},
+	"註解注意事項": {
+		"scope": "",
+		"prefix": "w3",
+		"body": [
+			"🧊 ${1:Notice}",
+		],
+		"description": "註解注意事項"
+	},
+	"註解好不好用": {
+		"scope": "",
+		"prefix": "w3",
+		"body": [
+			"💰 ${1:Notice}",
+		],
+		"description": "註解好不好用"
+	},
+	"import": {
+		"scope": "",
+		"prefix": "ip",
+		"body": [
+			"@import \"$1\";$0",
+		],
+		"description": "註解好不好用"
+	},
+}

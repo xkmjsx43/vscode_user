@@ -1,0 +1,83 @@
+{
+	// Place your GLOBAL snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	"import": {
+		"scope": "",
+		"prefix": "mm",
+		"body": [
+			"import { ${1:ref}$2 } from '${3:vue}';",
+		],
+		"description": "import"
+	},
+	"ref": {
+		"scope": "",
+		"prefix": "rf",
+		"body": [
+			"const ${1:V} = ref($2);",
+		],
+		"description": "ref"
+	},
+	"props": {
+		"scope": "",
+		"prefix": "pp",
+		"body": [
+			"const props = defineProps($1);",
+		],
+		"description": "props"
+	},
+	"emits": {
+		"scope": "",
+		"prefix": "em",
+		"body": [
+			"const emits = defineEmits($1);",
+		],
+		"description": "emits"
+	},
+	"onMounted": {
+		"scope": "",
+		"prefix": "om",
+		"body": [
+			"onMounted(() => {",
+			"$1",
+			"});",
+		],
+		"description": "onMounted"
+	},
+	"compouted": {
+		"scope": "",
+		"prefix": "cp",
+		"body": [
+			"const ${1:vHandler} = computed(() => {",
+			"  return $2",
+			"});",
+		],
+		"description": "compouted"
+	},
+	"vue setup": {
+		"scope": "",
+		"prefix": "vue",
+		"body": [
+			"<script setup>",
+			"  $1",
+			"</script>",
+			"",
+			"",
+			"<template>",
+			"  <div>",
+			"    ",
+			"  </div>",
+			"</template>",
+			"",
+			"",
+			"<style scoped>",
+			"  ",
+			"</style>",
+		],
+		"description": "vue setup"
+	},
+}

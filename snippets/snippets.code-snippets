@@ -1,0 +1,308 @@
+{
+	// Plae your GLOBAL snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+
+// 🧠 CMD 全部程式碼都能使用 『scope: ""』
+
+// 🧠 GIT
+"git tip": {
+	"scope": "",
+	"prefix": "gi",
+	"body": [
+		"git init",
+		"$0"
+	],
+	"description": "git tip"
+},
+// 🧊 img
+	"html s1": {
+		"scope": "html,css,sass,scss",
+		"prefix": "s1",
+		"body": [
+			"https://images.unsplash.com/photo-1698961251392-dcd538b58310?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		],
+		"description": "image"
+	},
+	"html s2": {
+		"scope": "html,css,sass,scss",
+		"prefix": "s2",
+		"body": [
+			"https://images.unsplash.com/photo-1578184366927-6e3c00368fae?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		],
+		"description": "image"
+	},
+	"html s3": {
+		"scope": "html,css,sass,scss",
+		"prefix": "s3",
+		"body": [
+			"https://plus.unsplash.com/premium_photo-1695582867991-e75f29ab5a2a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		],
+		"description": "image"
+	},
+	"html s4": {
+		"scope": "html,css,sass,scss",
+		"prefix": "s4",
+		"body": [
+			"https://images.unsplash.com/photo-1699727152109-b5b9592641ca?q=80&w=1989&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		],
+		"description": "image"
+	},
+	"html s5": {
+		"scope": "html,css,sass,scss",
+		"prefix": "s5",
+		"body": [
+			"https://images.unsplash.com/photo-1556695736-d287caebc48e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		],
+		"description": "image"
+	},
+	"html s6": {
+		"scope": "html,css,sass,scss",
+		"prefix": "s6",
+		"body": [
+			"https://images.unsplash.com/photo-1553184257-604db3e574a8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		],
+		"description": "image"
+	},
+	"html v1": {
+		"scope": "html,css,sass,scss",
+		"prefix": "v1",
+		"body": [
+			"https://images.unsplash.com/photo-1556695736-d287caebc48e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		],
+		"description": "image"
+	},
+	"html v1": {
+		"scope": "html,css,sass,scss",
+		"prefix": "v4",
+		"body": [
+			"https://images.unsplash.com/photo-1572414323397-e7918784a4b7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		],
+		"description": "image"
+	},
+	"html v2": {
+		"scope": "html,css,sass,scss",
+		"prefix": "v2",
+		"body": [
+			"https://plus.unsplash.com/premium_photo-1676745449942-9810b9f9e5b9?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		],
+		"description": "image"
+	},
+	"html v3": {
+		"scope": "html,css,sass,scss",
+		"prefix": "v3",
+		"body": [
+			"https://images.unsplash.com/photo-1551709076-89f2499d383b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		],
+		"description": "image"
+	},
+	"html photo04": {
+		"scope": "html,css,sass,scss",
+		"prefix": "img4",
+		"body": [
+			"<img src='https://plus.unsplash.com/premium_photo-1695582867991-e75f29ab5a2a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt=''>",
+		],
+		"description": "html,css,sass,scss"
+	},
+	"html photo01": {
+		"scope": "html,css,sass,scss",
+		"prefix": "img1",
+		"body": [
+			"<img src='https://images.unsplash.com/photo-1696251143046-2d32fb985b59?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60' alt=''>",
+		],
+		"description": "html,css,sass,scss"
+	},
+	"html photo02": {
+		"scope": "html,css,sass,scss",
+		"prefix": "img2",
+		"body": [
+			"<img src='https://images.unsplash.com/photo-1695945765606-8ddaddf00d86?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzOXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60' alt=''>",
+		],
+		"description": "image"
+	},
+	"html photo03": {
+		"scope": "html,css,sass,scss",
+		"prefix": "img3",
+		"body": [
+			"<img src='https://plus.unsplash.com/premium_photo-1692193553078-f848ec706f6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxODh8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60' alt=''>",
+		],
+		"description": "image"
+	},
+
+	"x-template": {
+		"scope": "html",
+		"prefix": "xt",
+		"body": [
+			"<script type='text/x-template' id='$1'>",
+			"$2",
+			"</script>"
+		],
+		"description": "vue composition API"
+	},
+	"template ``": {
+		"scope": "html,javascript,typescript",
+		"prefix": "tt",
+		"body": [
+			"`${1}`",
+		],
+		"description": "template"
+	},
+	"template tag": {
+		"scope": "html,javascript,typescript",
+		"prefix": "te",
+		"body": [
+			"<template>",
+			"		`",
+			"  $1",
+			"		`",
+			"</template>",
+		],
+		"description": "template tag"
+	},
+	"key: value": {
+		"scope": "javascript,typescript,html",
+		"prefix": "qq",
+		"body": [
+			"${1:key}: ${2:reference},",
+		],
+		"description": "key value"
+	},
+	"IIFE": {
+		"scope": "javascript,typescript",
+		"prefix": "ii",
+		"body": [
+			";(function () {",
+			"",
+			"$1",
+			"",
+			"})()",
+		],
+		"description": "const"
+	},
+
+
+	"template variable": {
+		"scope": "html,javascript,typescript",
+		"prefix": "ww",
+		"body": [
+			"{{${1:exp}}}",
+		],
+		"description": "Log output to console"
+	},
+
+	"三元運算子": {
+		"scope": "html,javascript,typescript",
+		"prefix": "ss",
+		"body": [
+			"${1:'🧠'} ? ${2:'✅'} : ${3:'❌'};",
+			"${4}"
+		],
+		"description": "三元運算子"
+	},
+	"Print to console time": {
+		"scope": "javascript,typescript",
+		"prefix": "ct",
+		"body": [
+			"console.time(`${1:Here} 處理時間`);",
+			"$2",
+			"console.timeEnd(`${1:Here} 處理時間`);",
+		],
+		"description": "Log output to console"
+	},
+	"Print to console group": {
+		"scope": "javascript,typescript",
+		"prefix": "cg",
+		"body": [
+			"console.group(`${1:groupName}`);",
+			"${2:迴圈}",
+			"console.groupEnd();",
+		],
+		"description": "Log output to console"
+	},
+	"Print to console error": {
+		"scope": "javascript,typescript",
+		"prefix": "cr",
+		"body": [
+			"console.error(`${1:errorName} Error`);",
+		],
+		"description": "Log output to console"
+	},
+	"Print to console table": {
+		"scope": "javascript,typescript",
+		"prefix": "ctt",
+		"body": [
+			"console.table(${1:variable});",
+		],
+		"description": "Log output to console table"
+	},
+	"promiseFn": {
+		"scope": "javascript,typescript",
+		"prefix": "pf",
+		"body": [
+			"const ${1:promiseFn} = (${2:num=0}, ${3:timeout=500}) => {",
+			"	return new Promise((res, rej) => {",
+			"		${4:'⏳非同步'}",
+			"	})",
+			"};",
+		],
+		"description": "promiseFn"
+	},
+	"html script 01": {
+		"scope": "html",
+		"prefix": "sco",
+		"body": [
+			"<script src='$1'>",
+			"",
+			"$2",
+			"",
+			"</script>"
+		],
+		"description": "html script"
+	},
+	// "html script 02": {
+	// 	"scope": "html",
+	// 	"prefix": "sc",
+	// 	"body": [
+	// 		"<script type='module' src='$1'>$2</script>",
+	// 	],
+	// 	"description": "html script"
+	// },
+	"html script 03": {
+		"scope": "html",
+		"prefix": "sc",
+		"body": [
+			"<script",
+			"  type='module'",
+			"  src='$1'",
+			">",
+			"",
+			"$2",
+			"",
+			"</script>"
+		],
+		"description": "html script"
+	},
+	"link icon": {
+		"scope": "html",
+		"prefix": "icon",
+		"body": [
+			"<link rel='icon' type='image/x-icon' href='$1'>",
+			"$0",
+		],
+		"description": "link icon"
+	},
+}

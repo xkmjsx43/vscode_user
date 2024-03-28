@@ -1,0 +1,206 @@
+{
+	// Place your GLOBAL snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	"Quotation marks 2": {
+		"scope": "",
+		"prefix": "st",
+		"body": [
+			"'$1'$0",
+		],
+		"description": "Quotation marks 2"
+	},
+		// js
+		"arrow func02": {
+			"scope": "javascript,typescript",
+			"prefix": "aa",
+			"body": [
+				"(${1:item},${2:i}) => {",
+				"${3:📃content} ",
+				"}",
+			],
+			"description": "arrow func"
+		},
+		"arrow func03": {
+			"scope": "javascript,typescript",
+			"prefix": "ar",
+			"body": [
+				"(${1:item},${2:i}) => ${2:📃content};",
+				"$3",
+			],
+			"description": "arrow func"
+		},
+		"arrow func04": {
+			"scope": "javascript,typescript",
+			"prefix": "ary",
+			"body": [
+				"${1:item} => ${2:📃content}",
+			],
+			"description": "arrow func"
+		},
+		"arrow func05": {
+			"scope": "javascript,typescript",
+			"prefix": "arr",
+			"body": [
+				"($1) => ${2:📃content}",
+			],
+			"description": "arrow func"
+		},
+		"function": {
+			"scope": "javascript,typescript",
+			"prefix": "fn",
+			"body": [
+				"function ${1:fnName} (${2:param}) {",
+				"$3",
+				"}",
+			],
+			"description": "function"
+		},
+		"function n": {
+			"scope": "javascript,typescript",
+			"prefix": "ff",
+			"body": [
+				"function (${1:param}) {",
+				"$2",
+				"}",
+			],
+			"description": "function"
+		},
+		"[]=[]": {
+			"scope": "javascript,typescript",
+			"prefix": "rr",
+			"body": [
+				"[${1:variable}]=[${2:value}] ;",
+			],
+			"description": "function"
+		},
+		"asyncFn": {
+			"scope": "javascript,typescript",
+			"prefix": "af",
+			"body": [
+				"const ${1:asyncFn} = async (${2:num}) => {",
+				"	try {",
+				"		const res = await promiseFn(${2:num});",
+				"		return res",
+				"  } catch (error) {",
+				"  	throw new Error(`${3:fail}`)",
+				"  };",
+				"};",
+			],
+			"description": "promiseFn"
+		}	,
+		"let variable": {
+			"scope": "javascript,typescript",
+			"prefix": "ll",
+			"body": [
+				"let ${1: 👻var} = ${2:💰reference};",
+				"$3"
+			],
+			"description": "let pureValue"
+		},
+		"const object": {
+			"scope": "javascript,typescript",
+			"prefix": "co",
+			"body": [
+				"const ${1:objName} = {",
+				"${2:🔑}: ${3:🧬},",
+				"${4}",
+				"};",
+			],
+			"description": "const object"
+		},
+		"use strict": {
+			"scope": "javascript,typescript",
+			"prefix": "us",
+			"body": [
+				"'use strict';",
+				"",
+			],
+			"description": "Log output to console"
+		},
+		"DOM": {
+			"scope": "javascript,typescript",
+			"prefix": "dq",
+			"body": [
+				"const ${2:domName} = document.querySelector('${1:selector}');",
+				"$3"
+			],
+			"description": "DOM"
+		},
+		"DOMALL": {
+			"scope": "javascript,typescript",
+			"prefix": "dqa",
+			"body": [
+				"const ${2:var} = document.querySelectorAll('${1:selector}');",
+				"$3"
+			],
+			"description": "DOMALL"
+		},
+		"const": {
+			"scope": "javascript,typescript",
+			"prefix": "cc",
+			"body": [
+				"const ${1:variableName} = ${2:reference} ;",
+			],
+			"description": "const"
+		},
+		"class": {
+			"scope": "javascript,typescript",
+			"prefix": "cl",
+			"body": [
+				"class ${1:className} {",
+				"  constructor(${2:specil}){",
+				"  }",
+				"}"
+			],
+			"description": "class"
+		},
+		"class extents": {
+			"scope": "javascript,typescript",
+			"prefix": "cle",
+			"body": [
+				"class ${1:className} extends ${2:被繼承對象} {",
+				"  constructor(${3:special}){",
+				"			super(${5:加上父層特性})",
+				"  }",
+				"}",
+			],
+			"description": "class extents"
+		},
+		"new": {
+			"scope": "javascript,typescript",
+			"prefix": "nn",
+			"body": [
+				"const ${1:entityName} = new ${2:Prototyepe}($3);",
+			],
+			"description": "new"
+		},
+		"ee 指定為": {
+			"scope": "javascript,typescript",
+			"prefix": "ee",
+			"body": [
+				"${1:variable} = ${2:reference}",
+			],
+			"description": "ee 指定為"
+		},
+		"Print to console with variables": {
+			"scope": "javascript,typescript",
+			"prefix": "cv",
+			"body": [
+				"console.log(${1:item});",
+			],
+			"description": "Log output to console"
+		},
+		"Print to console with direction": {
+			"scope": "javascript,typescript",
+			"prefix": "cd",
+			"body": [
+				"console.dir(${1:item});",
+			],
+			"description": "Log output to console"
+		},
+}

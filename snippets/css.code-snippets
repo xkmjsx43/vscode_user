@@ -1,0 +1,107 @@
+{
+	// Place your GLOBAL snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 	
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+// 🧠 HTML bs
+".container": {
+	"scope": "html",
+	"prefix": "cc",
+	"body": [
+		"<div class='container'>",
+		"",
+		"  $1",
+		"",
+		"</div>",
+	],
+	"description": "container"
+},
+".box": {
+	"scope": "html,css,scss,sass",
+	"prefix": "box",
+	"body": [
+		".box {",
+		"  width: ${1:250}px;",
+		"  height: ${2:250}px;",
+		"  background-color: ${3:#fa0};",
+		"}",
+		"$0"
+	],
+	"description": "box"
+},
+"text-align-center": {
+	"scope": "css,scss,sass",
+	"prefix": "tac",
+	"body": [
+		"text-align: ${1:center}; $0",
+	],
+	"description": "text-align-center"
+},
+"text-decoration-none": {
+	"scope": "css,scss,sass",
+	"prefix": "tdn",
+	"body": [
+		"text-decoration: ${1:none} ;$0",
+	],
+	"description": "text-decoration-none"
+},
+
+"html note span": {
+	"scope": "html",
+	"prefix": "ns",
+	"body": [
+		"<strong class='text-warning bg-dark'>$1</strong>$0",
+	],
+	"description": "note span"
+		//css
+	},
+	"html class outline ": {
+		"scope": "css,html,sass,scss",
+		"prefix": "out",
+		"body": [
+			".o{",
+				"outline: 1px solid #ccc;",
+			"}",
+		],
+		"description": "outline"
+	},
+	"html outline": {
+		"scope": "css,html,sass,scss",
+		"prefix": "outline",
+		"body": [
+			"*{",
+				"outline: 1px solid #000;",
+				// "margin: 0;",
+				// "padding: 0;",
+				// "box-sizing: border-box;",
+			"}",
+		],
+		"description": "outline"
+	},
+	"html bg-cover": {
+		"scope": "css,html,sass,scss",
+		"prefix": "bg-cover",
+		"body": [
+			".bg-cover{",
+				"background-position: center center;",
+				"background-size: cover;",
+			"}",
+		],
+		"description": "bg-cover"
+	},
+	"position center": {
+		"scope": "css,html,sass,scss",
+		"prefix": "pc",
+		"body": [
+			".position-center {",
+				"  top: 50%;",
+				"  left: 50%;",
+				"  transform: translate(-50%, -50%);",
+			"}",
+		],
+		"description": "position-center"
+	},
+}

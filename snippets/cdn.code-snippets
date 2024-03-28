@@ -1,0 +1,101 @@
+{
+	// Place your GLOBAL snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+		// 👻 引用外部資源 cdn
+		"bs5 js": {
+			"scope": "html",
+			"prefix": "bsj",
+			"body": [
+				"<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js' integrity='sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ' crossorigin='anonymous'></script>",
+			],
+			"description": "bs5 js"
+		},
+		"Mitt": {
+			"scope": "html",
+			"prefix": "mitt",
+			"body": [
+				"<script src='https://unpkg.com/mitt/dist/mitt.umd.js'></script>",
+			],
+			"description": "Mitt"
+		},
+		"{JSON} Placeholder Data": {
+			"scope": "javascript,typescript",
+			"prefix": "jp",
+			"body": [
+				"`https://jsonplaceholder.typicode.com/todos/1`",
+			],
+			"description": "{JSON} Placeholder"
+		},
+		"axios cdn": {
+			"scope": "html",
+			"prefix": "as",
+			"body": [
+				"<script src='https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js'></script>",
+			],
+			"description": "axios cdn"
+		},
+		"bootstraps5 CDN": {
+			"scope": "html",
+			"prefix": "bs",
+			"body": [
+				"<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU' crossorigin='anonymous'>",
+			],
+			"description": "bootstraps5"
+		},
+
+		"vue cdn": {
+			"scope": "html",
+			"prefix": "vs",
+			"body": [
+				"<script src='https://unpkg.com/vue@3/dist/vue.global.js'></script>",
+			],
+			"description": "vue cdn"
+		},
+		"vee-validate": {
+			"scope": "html",
+			"prefix": "vv",
+			"body": [
+				"<script src='https://unpkg.com/vee-validate'></script>",
+			],
+			"description": "vee-validate"
+		},
+		"font-awesome": {
+			"scope": "html",
+			"prefix": "fa",
+			"body": [
+				"<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css' integrity='sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==' crossorigin='anonymous' referrerpolicy='no-referrer' />",
+			],
+			"description": "font-awesome"
+		},
+		// 👻npm 💰
+		"npm create vite@latest": {
+			"scope": "",
+			"prefix": "vite",
+			"body": [
+				"npm create vite@latest",
+			],
+			"description": "npm create vite@latest"
+		},
+		"npm install --save axios vue-axios": {
+			"scope": "",
+			"prefix": "vue-axios",
+			"body": [
+				"npm install --save axios vue-axios",
+			],
+			"description": "npm install --save axios vue-axios"
+		},
+}

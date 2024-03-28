@@ -1,0 +1,720 @@
+{
+	// Place your GLOBAL snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"google font": {
+		"scope": "",
+		"prefix": "gf",
+		"body": [
+			"@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Color+Emoji&family=Noto+Sans+TC:wght@100..900&display=swap');",
+		],
+		"description": "google font"
+	},
+	"emoji 03": {
+		"scope": "",
+		"prefix": "f1",
+		"body": [
+			"🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊",
+		],
+		"description": "emoji 03"
+	},
+	"emoji 04": {
+		"scope": "",
+		"prefix": "f2",
+		"body": [
+			"🦷🦷🦷🦷🦷🦷🦷🦷🦷🦷🦷🦷🦷🦷🦷🦷🦷🦷🦷🦷🦷🦷🦷🦷🦷🦷",
+		],
+		"description": "emoji 04"
+	},
+	"emoji 05": {
+		"scope": "",
+		"prefix": "f3",
+		"body": [
+			"🧻🧻🧻🧻🧻🧻🧻🧻🧻🧻🧻🧻🧻🧻🧻🧻🧻🧻🧻🧻🧻🧻🧻🧻",
+		],
+		"description": "emoji 05"
+	},
+	"emoji 01": {
+		"scope": "",
+		"prefix": "e1",
+		"body": [
+			"🍣",
+		],
+		"description": "emoji 01"
+	},
+	"emoji 02": {
+		"scope": "",
+		"prefix": "e2",
+		"body": [
+			"🐢",
+		],
+		"description": "emoji 02"
+	},
+	"font family": {
+		"scope": "css,scss,sass",
+		"prefix": "ff",
+		"body": [
+			"font-family: 'Lato','Noto Sans TC','Noto Color Emoji', sans-serif;",
+		],
+		"description": "font family"
+	},
+	"bs d-inline-block": {
+		"scope": "html",
+		"prefix": "dib",
+		"body": [
+			"d-inline-block $0",
+		],
+		"description": "bs d-inline-block"
+	},
+	"bs d-none": {
+		"scope": "html",
+		"prefix": "dn",
+		"body": [
+			"d-none $0",
+		],
+		"description": "bs d-none"
+	},
+	"bs d-black": {
+		"scope": "html",
+		"prefix": "db",
+		"body": [
+			"d-black $0",
+		],
+		"description": "bs d-none"
+	},
+	"bs text-align-center": {
+		"scope": "html",
+		"prefix": "tac",
+		"body": [
+			"text-center $0",
+		],
+		"description": "bs text-align-center"
+	},
+	"bs text-decoration-none": {
+		"scope": "html",
+		"prefix": "tdn",
+		"body": [
+			"text-decoration-none $0",
+		],
+		"description": "text-decoration-none bs"
+	},
+	"bs text-decoration-underline": {
+		"scope": "html",
+		"prefix": "tdu",
+		"body": [
+			"text-decoration-underline $0",
+		],
+		"description": "text-decoration-underline bs"
+	},
+	"bs text-decoration-line-through": {
+		"scope": "html",
+		"prefix": "tdl",
+		"body": [
+			"text-decoration-line-through $0",
+		],
+		"description": "text-decoration-line-through bs"
+	},
+	"bs bg primary": {
+		"scope": "html",
+		"prefix": "bgp",
+		"body": [
+			"bg-primary $0",
+		],
+		"description": "bg-primary"
+	},
+	"bs bg secondary": {
+		"scope": "html",
+		"prefix": "bgs",
+		"body": [
+			"bg-secondary $0",
+		],
+		"description": "bg-secondary"
+	},
+	"bs bg opacity": {
+		"scope": "html",
+		"prefix": "bgo",
+		"body": [
+			"bg-opacity-${1:25} $0",
+		],
+		"description": "bg-opacity"
+	},
+	"bs list-unstyled": {
+		"scope": "html",
+		"prefix": "lu",
+		"body": [
+			"list-unstyled $1",
+		],
+		"description": "list-unstyled"
+	},
+	// "bs img-imgfluid": {
+	// 	"scope": "html",
+	// 	"prefix": "imgf",
+	// 	"body": [
+	// 		"<img src='$1' alt='' class='img-fluid $2'>",
+	// 	],
+	// 	"description": "img-fluid"
+	// },
+	// 🧠 flex
+	"bs5 display-flex": {
+		"scope": "html",
+		"prefix": "df",
+		"body": [
+			"d-flex $0",
+		],
+		"description": "bs5 display-flex"
+	},
+	"bs5 direction flex-column": {
+		"scope": "html",
+		"prefix": "fc",
+		"body": [
+			"flex-column $0",
+		],
+		"description": "bs5 direction flex-column"
+	},
+	"bs5 direction flex-column-reverse": {
+		"scope": "html",
+		"prefix": "fcr",
+		"body": [
+			"flex-column-reverse $0",
+		],
+		"description": "bs5 flex-column-reverse"
+	},
+	"bs5 direction flex-row": {
+		"scope": "html",
+		"prefix": "fr",
+		"body": [
+			"flex-row $0",
+		],
+		"description": "bs5 flex-row"
+	},
+	"bs5 direction flex-row-reverse": {
+		"scope": "html",
+		"prefix": "frr",
+		"body": [
+			"flex-row-reverse $0",
+		],
+		"description": "bs5 flex-row-reverse"
+	},
+	"bs5 justify-content-start": {
+		"scope": "html",
+		"prefix": "jcs",
+		"body": [
+			"justify-content-start $0",
+		],
+		"description": "bs5 justify-content-start"
+	},
+	"bs5 justify-content-end": {
+		"scope": "html",
+		"prefix": "jce",
+		"body": [
+			"justify-content-end $0",
+		],
+		"description": "bs5 justify-content-end"
+	},
+	"bs5 justify-content-center": {
+		"scope": "html",
+		"prefix": "jcc",
+		"body": [
+			"justify-content-center $0",
+		],
+		"description": "bs5 justify-content-center"
+	},
+	"bs5 justify-content-between": {
+		"scope": "html",
+		"prefix": "jcb",
+		"body": [
+			"justify-content-between $0",
+		],
+		"description": "bs5 justify-content-between"
+	},
+	"bs5 justify-content-around": {
+		"scope": "html",
+		"prefix": "jca",
+		"body": [
+			"justify-content-around $0",
+		],
+		"description": "bs5 justify-content-around"
+	},
+	"bs5 justify-content-evenly": {
+		"scope": "html",
+		"prefix": "jce",
+		"body": [
+			"justify-content-evenly $0",
+		],
+		"description": "bs5 justify-content-evenly"
+	},
+	"bs5 align-items-start": {
+		"scope": "html",
+		"prefix": "ais",
+		"body": [
+			"align-items-start $0",
+		],
+		"description": "bs5 align-items-start"
+	},
+	"bs5 align-items-end": {
+		"scope": "html",
+		"prefix": "aie",
+		"body": [
+			"align-items-end $0",
+		],
+		"description": "bs5 align-items-end"
+	},
+	"bs5 align-items-center": {
+		"scope": "html",
+		"prefix": "aic",
+		"body": [
+			"align-items-center $0",
+		],
+		"description": "bs5 align-items-center"
+	},
+	"bs5 align-items-baseline": {
+		"scope": "html",
+		"prefix": "aib",
+		"body": [
+			"align-items-baseline $0",
+		],
+		"description": "bs5 align-items-baseline"
+	},
+	"bs5 align-items-stretch": {
+		"scope": "html",
+		"prefix": "aist",
+		"body": [
+			"align-items-stretch $0",
+		],
+		"description": "bs5 align-items-stretch"
+	},
+	"bs5 align-self-start": {
+		"scope": "html",
+		"prefix": "ass",
+		"body": [
+			"align-self-start $0",
+		],
+		"description": "bs5 align-self-start"
+	},
+	"bs5 align-self-end": {
+		"scope": "html",
+		"prefix": "ase",
+		"body": [
+			"align-self-end $0",
+		],
+		"description": "bs5 align-self-end"
+	},
+	"bs5 align-self-center": {
+		"scope": "html",
+		"prefix": "asc",
+		"body": [
+			"align-self-center $0",
+		],
+		"description": "bs5 align-self-center"
+	},
+	"bs5 align-self-baseline": {
+		"scope": "html",
+		"prefix": "asb",
+		"body": [
+			"align-self-baseline $0",
+		],
+		"description": "bs5 align-self-baseline"
+	},
+	"bs5 align-self-stretch": {
+		"scope": "html",
+		"prefix": "asst",
+		"body": [
+			"align-self-stretch $0",
+		],
+		"description": "bs5 align-self-stretch"
+	},
+	// 🧠 overflow
+	"bs5 overflow-auto": {
+		"scope": "html",
+		"prefix": "ofa",
+		"body": [
+			"overflow-auto $0",
+		],
+		"description": "bs5 overflow-auto"
+	},
+	"bs5 overflow-hidden": {
+		"scope": "html",
+		"prefix": "ofh",
+		"body": [
+			"overflow-hidden $0",
+		],
+		"description": "bs5 overflow-hidden"
+	},
+	"bs5 overflow-visible": {
+		"scope": "html",
+		"prefix": "ofv",
+		"body": [
+			"overflow-visible $0",
+		],
+		"description": "bs5 overflow-visible"
+	},
+	"bs5 overflow-scroll": {
+		"scope": "html",
+		"prefix": "ofs",
+		"body": [
+			"overflow-scroll $0",
+		],
+		"description": "bs5 overflow-scroll"
+	},
+	"bs5 img-fluid": {
+		"scope": "html",
+		"prefix": "if",
+		"body": [
+			"img-fluid $0",
+		],
+		"description": "bs5 img-fluid"
+	},
+	// 🧠 table
+	"bs5 table": {
+		"scope": "html",
+		"prefix": "t",
+		"body": [
+			"table $0",
+		],
+		"description": "bs5 table"
+	},
+	// 🧠 container
+	"bs5 container": {
+		"scope": "html",
+		"prefix": "c",
+		"body": [
+			"container $0",
+		],
+		"description": "bs5 container"
+	},
+	// 🧠 通用
+	"bs5 opacity-{value}": {
+		"scope": "html",
+		"prefix": "o",
+		"body": [
+			"opacity-$1 $0",
+		],
+		"description": "bs5 opacity-{value}"
+	},
+	"bs5 border": {
+		"scope": "html",
+		"prefix": "b",
+		"body": [
+			"border $0",
+		],
+		"description": "bs5 border"
+	},
+	"bs5 border-top": {
+		"scope": "html",
+		"prefix": "bt",
+		"body": [
+			"border-top $0",
+		],
+		"description": "bs5 border-top"
+	},
+	"bs5 border-bottom": {
+		"scope": "html",
+		"prefix": "bb",
+		"body": [
+			"border-bottom $0",
+		],
+		"description": "bs5 border-bottom"
+	},
+	"bs5 border-start": {
+		"scope": "html",
+		"prefix": "bs",
+		"body": [
+			"border-start $0",
+		],
+		"description": "bs5 border-start"
+	},
+	"bs5 border-end": {
+		"scope": "html",
+		"prefix": "be",
+		"body": [
+			"border-end $0",
+		],
+		"description": "bs5 border-end"
+	},
+	// 🧠 位置 (Position)
+	"bs5 position-static": {
+		"scope": "html",
+		"prefix": "po",
+		"body": [
+			"position-static $0",
+		],
+		"description": "bs5 position-static"
+	},
+	"bs5 position-relative": {
+		"scope": "html",
+		"prefix": "pr",
+		"body": [
+			"position-relative $0",
+		],
+		"description": "bs5 position-relative"
+	},
+	"bs5 position-absolute": {
+		"scope": "html",
+		"prefix": "pa",
+		"body": [
+			"position-absolute $0",
+		],
+		"description": "bs5 position-absolute"
+	},
+	"bs5 position-fixed": {
+		"scope": "html",
+		"prefix": "pf",
+		"body": [
+			"position-fixed $0",
+		],
+		"description": "bs5 position-fixed"
+	},
+	"bs5 position-sticky": {
+		"scope": "html",
+		"prefix": "ps",
+		"body": [
+			"position-sticky $0",
+		],
+		"description": "bs5 position-sticky"
+	},
+	"bs5 rounded-pill": {
+		"scope": "html",
+		"prefix": "rp",
+		"body": [
+			"rounded-pill $0",
+		],
+		"description": "bs5 rounded-pill"
+	},
+	"bs5 rounded-circle": {
+		"scope": "html",
+		"prefix": "rc",
+		"body": [
+			"rounded-circle $0",
+		],
+		"description": "bs5 rounded-circle"
+	},
+	"bs5 text-truncate": {
+		"scope": "html",
+		"prefix": "tt",
+		"body": [
+			"text-truncate $0",
+		],
+		"description": "bs5 text-truncate"
+	},
+	"bs5 text-nowrap": {
+		"scope": "html",
+		"prefix": "tn",
+		"body": [
+			"text-nowrap $0",
+		],
+		"description": "bs5 text-nowrap"
+	},
+	"bs5 text-wrap": {
+		"scope": "html",
+		"prefix": "tw",
+		"body": [
+			"text-wrap $0",
+		],
+		"description": "bs5 text-wrap"
+	},
+	"bs5 text-lowercase": {
+		"scope": "html",
+		"prefix": "tl",
+		"body": [
+			"text-lowercase $0",
+		],
+		"description": "bs5 text-lowercase"
+	},
+	"bs5 text-uppercase": {
+		"scope": "html",
+		"prefix": "tu",
+		"body": [
+			"text-uppercase $0",
+		],
+		"description": "bs5 text-uppercase"
+	},
+	"bs5 text-capitalize": {
+		"scope": "html",
+		"prefix": "tc",
+		"body": [
+			"text-capitalize $0",
+		],
+		"description": "bs5 text-capitalize"
+	},
+	"bs5 text-reset": {
+		"scope": "html",
+		"prefix": "tr",
+		"body": [
+			"text-reset $0",
+		],
+		"description": "bs5 text-reset"
+	},
+	"bs5 background-size-contain": {
+		"scope": "html",
+		"prefix": "bsct",
+		"body": [
+			"background-size-contain $0",
+		],
+		"description": "bs5 background-size-contain"
+	},
+	"bs5 background-size-cover": {
+		"scope": "html",
+		"prefix": "bsc",
+		"body": [
+			"background-size-cover $0",
+		],
+		"description": "bs5 background-size-cover"
+	},
+	"bs5 background-repeat": {
+		"scope": "html",
+		"prefix": "br",
+		"body": [
+			"background-repeat $0",
+		],
+		"description": "bs5 background-repeat"
+	},
+	"bs5 background-repeat-none": {
+		"scope": "html",
+		"prefix": "brn",
+		"body": [
+			"background-repeat-none $0",
+		],
+		"description": "bs5 background-repeat-none"
+	},
+	"bs5 background-clip border-box": {
+		"scope": "html",
+		"prefix": "bcb",
+		"body": [
+			"background-clip-border $0",
+		],
+		"description": "bs5 ackground-clip-border-box"
+	},
+	"bs5 background-clip content-box": {
+		"scope": "html",
+		"prefix": "bcc",
+		"body": [
+			"background-clip-content $0",
+		],
+		"description": "bs5 ackground-clip-content-box"
+	},
+	"bs5 background-clip text": {
+		"scope": "html",
+		"prefix": "bct",
+		"body": [
+			"background-clip-text $0",
+		],
+		"description": "bs5 ackground-clip-text"
+	},
+	"bs5 background-position center": {
+		"scope": "html",
+		"prefix": "bpc",
+		"body": [
+			"background-position-center $0",
+		],
+		"description": "bs5 background-position-center"
+	},
+	"bs5 background-position num": {
+		"scope": "html",
+		"prefix": "bp",
+		"body": [
+			"background-position-$1 $0",
+		],
+		"description": "bs5 background-position num"
+	},
+	"bs5 translate-middle": {
+		"scope": "html",
+		"prefix": "tm",
+		"body": [
+			"translate-middle $0",
+		],
+		"description": "bs5 translate-middle"
+	},
+	"bs5 background-attachment-scroll": {
+		"scope": "html",
+		"prefix": "bgas",
+		"body": [
+			"background-attachment-scroll $0",
+		],
+		"description": "bs5 background-attachment-scroll"
+	},
+	"bs5 background-attachment-fixed": {
+		"scope": "html",
+		"prefix": "bgaf",
+		"body": [
+			"background-attachment-fixed $0",
+		],
+		"description": "bs5 background-attachment-fixed"
+	},
+	"bs5 background-attachment-loacal": {
+		"scope": "html",
+		"prefix": "bgal",
+		"body": [
+			"background-attachment-loacal $0",
+		],
+		"description": "bs5 background-attachment-loacal"
+	},
+	"bs5 object-fit-cover": {
+		"scope": "html",
+		"prefix": "ofc",
+		"body": [
+			"object-fit-cover $0",
+		],
+		"description": "bs5 object-fit-cover"
+	},
+	"bs5 object-fit-contain": {
+		"scope": "html",
+		"prefix": "ofct",
+		"body": [
+			"object-fit-contain $0",
+		],
+		"description": "bs5 object-fit-contain"
+	},
+	"bs5 object-fit-fill": {
+		"scope": "html",
+		"prefix": "off",
+		"body": [
+			"object-fit-fill $0",
+		],
+		"description": "bs5 object-fit-fill"
+	},
+	"bs5 object-fit-scale-down": {
+		"scope": "html",
+		"prefix": "ofs",
+		"body": [
+			"object-fit-scale $0",
+		],
+		"description": "bs5 object-fit-scale-down"
+	},
+	"bs5 text-transparent": {
+		"scope": "html",
+		"prefix": "ttt",
+		"body": [
+			"text--transparent $0",
+		],
+		"description": "bs5 text-transparent"
+	},
+	"bs5 fs--vw": {
+		"scope": "html",
+		"prefix": "fsv",
+		"body": [
+			"font--size--vw $0",
+		],
+		"description": "bs5 fs--vw"
+	},
+	"bs5 stretched-link": {
+		"scope": "html",
+		"prefix": "sl",
+		"body": [
+			"stretched-link $0",
+		],
+		"description": "bs5 stretched-link"
+	},
+}
