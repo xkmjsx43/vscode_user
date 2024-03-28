@@ -23,7 +23,7 @@
 		],
 		"description": "google font"
 	},
-	"emoji 03": {
+	"emoji 003": {
 		"scope": "",
 		"prefix": "f1",
 		"body": [
@@ -31,7 +31,7 @@
 		],
 		"description": "emoji 03"
 	},
-	"emoji 04": {
+	"emoji 004": {
 		"scope": "",
 		"prefix": "f2",
 		"body": [
@@ -39,7 +39,7 @@
 		],
 		"description": "emoji 04"
 	},
-	"emoji 05": {
+	"emoji 005": {
 		"scope": "",
 		"prefix": "f3",
 		"body": [
@@ -62,6 +62,46 @@
 			"🐢",
 		],
 		"description": "emoji 02"
+	},
+	"emoji 03": {
+		"scope": "",
+		"prefix": "e3",
+		"body": [
+			"🍠",
+		],
+		"description": "emoji 03"
+	},
+	"emoji 04": {
+		"scope": "",
+		"prefix": "e4",
+		"body": [
+			"🍟",
+		],
+		"description": "emoji 04"
+	},
+	"emoji 05": {
+		"scope": "",
+		"prefix": "e5",
+		"body": [
+			"💤",
+		],
+		"description": "emoji 05"
+	},
+	"emoji 06": {
+		"scope": "",
+		"prefix": "e6",
+		"body": [
+			"🍖",
+		],
+		"description": "emoji 06"
+	},
+	"emoji 07": {
+		"scope": "",
+		"prefix": "e7",
+		"body": [
+			"🍼",
+		],
+		"description": "emoji 07"
 	},
 	"font family": {
 		"scope": "css,scss,sass",

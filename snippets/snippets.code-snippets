@@ -300,7 +300,7 @@
 		"scope": "html",
 		"prefix": "icon",
 		"body": [
-			"<link rel='icon' type='image/x-icon' href='$1'>",
+			"<link rel='icon' href='$1'>",
 			"$0",
 		],
 		"description": "link icon"
