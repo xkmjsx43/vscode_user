@@ -1,27 +1,35 @@
 // 將按鍵繫結關係放在此檔案中以覆寫預設auto[]
 [
   {
+    "key": "alt+g",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "\"$1\"$0",
+    }
+  },
+  {
+    "key": "alt+c",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "'$1'$0",
+    }
+  },
+  {
     "key": "alt+w",
     "command": "editor.action.insertSnippet",
     "when": "editorTextFocus",
     "args": {
-      "snippet": "{{$0}}"
+      "snippet": "{{$1}}$0",
     }
   },
   {
-    "key": "alt+n",
+    "key": "alt+s",
     "command": "editor.action.insertSnippet",
     "when": "editorTextFocus",
     "args": {
-      "snippet": "{{$0}}"
-    }
-  },
-  {
-    "key": "alt+v",
-    "command": "editor.action.insertSnippet",
-    "when": "editorTextFocus",
-    "args": {
-      "snippet": "${$1}$0"
+      "snippet": "${$1}$0",
     }
   },
   {

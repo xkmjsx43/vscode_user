@@ -86,7 +86,7 @@
 		],
 		"description": "image"
 	},
-	"html v1": {
+	"html v4": {
 		"scope": "html,css,sass,scss",
 		"prefix": "v4",
 		"body": [
@@ -166,9 +166,9 @@
 		"prefix": "te",
 		"body": [
 			"<template>",
-			"		`",
+			"   `",
 			"  $1",
-			"		`",
+			"   `",
 			"</template>",
 		],
 		"description": "template tag"
@@ -192,16 +192,6 @@
 			"})()",
 		],
 		"description": "const"
-	},
-
-
-	"template variable": {
-		"scope": "html,javascript,typescript",
-		"prefix": "ww",
-		"body": [
-			"{{${1:exp}}}",
-		],
-		"description": "Log output to console"
 	},
 
 	"三元運算子": {
@@ -254,9 +244,9 @@
 		"prefix": "pf",
 		"body": [
 			"const ${1:promiseFn} = (${2:num=0}, ${3:timeout=500}) => {",
-			"	return new Promise((res, rej) => {",
-			"		${4:'⏳非同步'}",
-			"	})",
+			" return new Promise((res, rej) => {",
+			"   ${4:'⏳非同步'}",
+			" })",
 			"};",
 		],
 		"description": "promiseFn"
