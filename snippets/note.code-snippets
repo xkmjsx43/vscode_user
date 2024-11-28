@@ -31,8 +31,90 @@
 		],
 		"description": "註解標題"
 	},
+	"Charlene": {
+		"scope": "",
+		"prefix": "ch;",
+		"body": [
+			"'Charlene'",
+		],
+		"description": "Charlene"
+	},
+	"Vivian": {
+		"scope": "",
+		"prefix": "vi;",
+		"body": [
+			"'Vivian'",
+		],
+		"description": "Vivian"
+	},
+	"V": {
+		"scope": "",
+		"prefix": "v;",
+		"body": [
+			"✅",
+		],
+		"description": "V"
+	},
+	"x": {
+		"scope": "",
+		"prefix": "x;",
+		"body": [
+			"❌",
+		],
+		"description": "x"
+	},
+	"n": {
+		"scope": "",
+		"prefix": "n;",
+		"body": [
+			"📌",
+		],
+		"description": "n"
+	},
+	"br---": {
+		"scope": "",
+		"prefix": "be;",
+		"body": [
+			"------------------------------------------------------------",
+		],
+		"description": "br"
+	},
+	"br-$1": {
+		"scope": "",
+		"prefix": "bb;",
+		"body": [
+			"🧊 $1------------------------------------------------------------ 🧊",
+			"$0",
+		],
+		"description": "br"
+	},
+	"br-$2": {
+		"scope": "",
+		"prefix": "bbb;",
+		"body": [
+			"'🧊 $1------------------------------------------------------------ 🧊'",
+			"$0",
+		],
+		"description": "br"
+	},
+	"br-": {
+		"scope": "",
+		"prefix": "b;",
+		"body": [
+			"🧊 ------------------------------------------------------------ 🧊",
+		],
+		"description": "br"
+	},
+	// "br-": {
+	// 	"scope": "",
+	// 	"prefix": "b",
+	// 	"body": [
+	// 		"🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊",
+	// 	],
+	// 	"description": "br"
+	// },
 	"註解重點-": {
-		"prefix": "a2",
+		"prefix": "a2;",
 		"body": [
 			"//🍙 ${1:point}",
 		],
@@ -40,7 +122,7 @@
 	},
 	"註解注意事項-": {
 		"scope": "",
-		"prefix": "a3",
+		"prefix": "a3;",
 		"body": [
 			"//🧊 ${1:Notice}",
 		],
@@ -48,7 +130,7 @@
 	},
 	"''註解標題": {
 		"scope": "",
-		"prefix": "q1",
+		"prefix": "q1;",
 		"body": [
 			"'🍉🥝 ${1:title}'",
 		],
@@ -56,7 +138,7 @@
 	},
 	"''註解重點": {
 		"scope": "",
-		"prefix": "q2",
+		"prefix": "q2;",
 		"body": [
 			"'🍙 ${1:point}'",
 		],
@@ -64,7 +146,7 @@
 	},
 	"''註解注意事項": {
 		"scope": "",
-		"prefix": "q3",
+		"prefix": "q3;",
 		"body": [
 			"'🧊 ${1:Notice}'",
 		],
@@ -72,7 +154,7 @@
 	},
 	"註解標題": {
 		"scope": "",
-		"prefix": "w1",
+		"prefix": "w1;",
 		"body": [
 			"🧠 ${1:title}",
 		],
@@ -80,7 +162,7 @@
 	},
 	"註解重點": {
 		"scope": "",
-		"prefix": "w2",
+		"prefix": "w2;",
 		"body": [
 			"🍙 ${1:point}",
 		],
@@ -88,7 +170,7 @@
 	},
 	"註解注意事項": {
 		"scope": "",
-		"prefix": "w3",
+		"prefix": "w3;",
 		"body": [
 			"🧊 ${1:Notice}",
 		],
@@ -108,6 +190,14 @@
 		"body": [
 			"@import \"$1\";$0",
 		],
-		"description": "註解好不好用"
+		"description": "import"
+	},
+	"export default": {
+		"scope": "",
+		"prefix": "ed",
+		"body": [
+			"export default {$1}",
+		],
+		"description": "export default"
 	},
 }

@@ -15,21 +15,9 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-
-
-// 🧠 CMD 全部程式碼都能使用 『scope: ""』
-
-// 🧠 GIT
-"git tip": {
-	"scope": "",
-	"prefix": "gi",
-	"body": [
-		"git init",
-		"$0"
-	],
-	"description": "git tip"
-},
-// 🧊 img
+	// 🧠 CMD 全部程式碼都能使用 『scope: ""』
+	// 🧠 GIT
+	// 🧊 img
 	"html s1": {
 		"scope": "html,css,sass,scss",
 		"prefix": "s1",
@@ -142,7 +130,6 @@
 		],
 		"description": "image"
 	},
-
 	"x-template": {
 		"scope": "html",
 		"prefix": "xt",
@@ -193,13 +180,11 @@
 		],
 		"description": "const"
 	},
-
 	"三元運算子": {
 		"scope": "html,javascript,typescript",
 		"prefix": "ss",
 		"body": [
-			"${1:'🧠'} ? ${2:'✅'} : ${3:'❌'};",
-			"${4}"
+			"${1:'🧠'} ? ${2:'✅'} : ${3:'❌'};$0",
 		],
 		"description": "三元運算子"
 	},
@@ -253,7 +238,7 @@
 	},
 	"html script 01": {
 		"scope": "html",
-		"prefix": "sco",
+		"prefix": "sc;",
 		"body": [
 			"<script src='$1'>",
 			"",
@@ -290,8 +275,7 @@
 		"scope": "html",
 		"prefix": "icon",
 		"body": [
-			"<link rel='icon' href='$1'>",
-			"$0",
+			"<link rel='icon' href='$1'>$0",
 		],
 		"description": "link icon"
 	},

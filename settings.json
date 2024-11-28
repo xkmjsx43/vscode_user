@@ -7,9 +7,9 @@
 	"editor.wordWrap": "on",
 	"emmet.triggerExpansionOnTab": true,
 	"emmet.includeLanguages": {
-	"javascript": "javascriptreact",
-	"vue-html": "html",
-	"plaintext": "jade"
+		"javascript": "javascriptreact",
+		"vue-html": "html",
+		"plaintext": "jade"
 	},
 	"[html]": {
 		"editor.defaultFormatter": "vscode.html-language-features"
@@ -24,10 +24,9 @@
 		"editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
 	},
 	"[vue]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "Vue.volar"
 	},
 	"liveSassCompile.settings.formats": [
-
 		{
 			"format": "expanded",
 			"extensionName": ".css",
@@ -55,7 +54,7 @@
 		"!javascript"
 	],
 	"html.format.wrapAttributes": "force-expand-multiline",
-	"workbench.iconTheme": "vscode-icons",
+	"workbench.iconTheme": "material-icon-theme",
 	"vsicons.dontShowNewVersionMessage": true,
 	"bracketPairColorizer.depreciation-notice": false,
 	"workbench.startupEditor": "none",
@@ -79,4 +78,16 @@
 	"editor.accessibilitySupport": "off",
 	"security.workspace.trust.untrustedFiles": "open",
 	"git.openRepositoryInParentFolders": "always",
+	"editor.formatOnSave": true,
+	"material-icon-theme.folders.theme": "specific",
+	"editor.codeActionsOnSave": {},
+	"[markdown]": {
+		"editor.wordWrap": "on",
+		"editor.quickSuggestions": {
+			"other": true,
+			"comments": false,
+			"strings": false
+		}
+	},
+	"editor.snippetSuggestions": "top"
 }

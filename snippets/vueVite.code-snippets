@@ -10,15 +10,15 @@
 		"scope": "",
 		"prefix": "mm",
 		"body": [
-			"import { ${1:ref}$2 } from '${3:vue}';",
+			"import { ${1:ref}$2 } from '${3:vue}';$0",
 		],
 		"description": "import"
 	},
 	"ref": {
 		"scope": "",
-		"prefix": "rf",
+		"prefix": "vc",
 		"body": [
-			"const ${1:V} = ref($2);",
+			"const ${1:V} = ref($2);$0",
 		],
 		"description": "ref"
 	},
@@ -26,7 +26,7 @@
 		"scope": "",
 		"prefix": "pp",
 		"body": [
-			"const props = defineProps($1);",
+			"const props = defineProps($1);$0",
 		],
 		"description": "props"
 	},

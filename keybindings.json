@@ -1,6 +1,14 @@
 // 將按鍵繫結關係放在此檔案中以覆寫預設auto[]
 [
   {
+    "key": "alt+r",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "`$1`$0",
+    }
+  },
+  {
     "key": "alt+g",
     "command": "editor.action.insertSnippet",
     "when": "editorTextFocus",
@@ -68,7 +76,7 @@
     "when": "textInputFocus"
   },
   {
-    "key": "alt+numpad1",
+    "key": "alt+a",
     "command": "cursorHome",
     "when": "textInputFocus"
   },
@@ -108,7 +116,7 @@
     "when": "notebookEditorFocused && !inputFocus"
   },
   {
-    "key": "alt+numpad2",
+    "key": "alt+numpad8",
     "command": "cursorEndSelect",
     "when": "textInputFocus"
   },
@@ -226,7 +234,7 @@
     "when": "textInputFocus"
   },
   {
-    "key": "alt+a",
+    "key": "alt+numpad4",
     "command": "cursorHomeSelect",
     "when": "textInputFocus"
   },
@@ -459,5 +467,19 @@
     "key": "ctrl+k ctrl+8",
     "command": "-editor.foldAllMarkerRegions",
     "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "ctrl+shift+f",
+    "command": "workbench.view.search",
+    "when": "workbench.view.search.active && neverMatch =~ /doesNotMatch/"
+  },
+  {
+    "key": "ctrl+shift+f",
+    "command": "-workbench.view.search",
+    "when": "workbench.view.search.active && neverMatch =~ /doesNotMatch/"
+  },
+  {
+    "key": "ctrl+k numpad5",
+    "command": "workbench.action.toggleCenteredLayout"
   }
 ]

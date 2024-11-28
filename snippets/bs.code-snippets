@@ -290,7 +290,7 @@
 	},
 	"bs5 justify-content-evenly": {
 		"scope": "html",
-		"prefix": "jce",
+		"prefix": "jcey",
 		"body": [
 			"justify-content-evenly $0",
 		],
@@ -330,7 +330,7 @@
 	},
 	"bs5 align-items-stretch": {
 		"scope": "html",
-		"prefix": "aist",
+		"prefix": "ait",
 		"body": [
 			"align-items-stretch $0",
 		],
@@ -370,7 +370,7 @@
 	},
 	"bs5 align-self-stretch": {
 		"scope": "html",
-		"prefix": "asst",
+		"prefix": "ast",
 		"body": [
 			"align-self-stretch $0",
 		],
